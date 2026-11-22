@@ -3,7 +3,7 @@
 Projet de base de l'équipe pour la Nuit de l'Info 2026.
 المشروع الأساسي للفريق في مسابقة Nuit de l'Info 2026.
 
-🌐 **Production :** _à compléter après la connexion Vercel_
+🌐 **Production :** https://practice-nuitinfo.vercel.app
 
 ## Stack
 
