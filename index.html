@@ -1,13 +1,23 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nuitinfo-starter</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>خمّن الرقم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>🎯 خمّن الرقم</h1>
+    <p>اخترتُ رقماً بين 1 و 100. هل تستطيع تخمينه؟</p>
+    <form id="form">
+      <input id="guess" type="number" min="1" max="100" placeholder="اكتب رقماً" required autofocus>
+      <button type="submit">جرّب</button>
+    </form>
+    <p id="message" class="message"></p>
+    <p class="attempts">المحاولات: <span id="attempts">0</span></p>
+    <button id="restart" class="restart" hidden>العب من جديد</button>
+  </main>
+  <script src="script.js"></script>
+</body>
 </html>
